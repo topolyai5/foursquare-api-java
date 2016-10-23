@@ -25,7 +25,7 @@ public class Recommendation implements FoursquareEntity {
    * 
    * @return recommended venues
    */
-  public CompactVenue getVenue() {
+  public CompleteVenue getVenue() {
     return venue;
   }
   
@@ -39,6 +39,6 @@ public class Recommendation implements FoursquareEntity {
   }
   
   private ReasonGroup reasons;
-  private CompactVenue venue;
+  private CompleteVenue venue;
   private CompleteTip[] tips;
 }
